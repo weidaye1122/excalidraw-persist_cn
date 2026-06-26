@@ -2,7 +2,7 @@
 
 基于 Excalidraw Persist 的中文汉化版本，适合自托管部署和个人使用。
 
-`docker run -p 80:80 -p 4000:4000 ghcr.io/weidaye1122/excalidraw-persist:0.1.0`
+`docker run -p 80:80 -p 4000:4000 ghcr.io/weidaye1122/excalidraw-persist:latest`
 
 <img width="1440" height="790" alt="Screenshot" src="https://github.com/user-attachments/assets/18f0f065-58d1-42d8-94d6-b29531b4b685" />
 
