@@ -17,6 +17,13 @@ findDialog.singleResult = '个结果';
 findDialog.multipleResults = '个结果';
 findDialog.placeholder = '在画布上查找...';
 
+const search = (excalidrawZhCNLocale.search ??= {} as LocaleBranch) as LocaleBranch;
+search.title = '在画布上查找';
+search.noMatch = '未找到匹配项...';
+search.singleResult = '个结果';
+search.multipleResults = '个结果';
+search.placeholder = '在画布上查找...';
+
 const stats = (excalidrawZhCNLocale.stats ??= {} as LocaleBranch) as LocaleBranch;
 stats.fullTitle = '画布与形状属性';
 stats.title = '属性';
