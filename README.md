@@ -23,7 +23,20 @@
 
 ```text
 ghcr.io/weidaye1122/excalidraw-persist_cn:latest
+weidaye1122/excalidraw-persist_cn:latest
 ```
+
+GitHub Actions 会同时发布到 GHCR 和 Docker Hub：
+
+- `ghcr.io/weidaye1122/excalidraw-persist_cn:1.0.0`
+- `ghcr.io/weidaye1122/excalidraw-persist_cn:latest`
+- `weidaye1122/excalidraw-persist_cn:1.0.0`
+- `weidaye1122/excalidraw-persist_cn:latest`
+
+Docker Hub 同步需要在 GitHub 仓库的 Actions secrets 中配置：
+
+- `DOCKERHUB_USERNAME`: Docker Hub 用户名
+- `DOCKERHUB_TOKEN`: Docker Hub Access Token
 
 `docker-compose.yml` 示例：
 
